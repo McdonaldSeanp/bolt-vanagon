@@ -22,6 +22,16 @@
           Source="$(var.AppSourcePath)\share\PowerShell\Modules\PuppetBolt\PuppetBolt.psm1"
           KeyPath="yes" />
       </Component>
+
+      <Component
+        Id="PuppetBoltFunctions.ps1"
+        Directory="PowerShellBoltModuleDir"
+        Guid="ED4B330A-B186-447D-BDEE-9E2958357EC0">
+        <File
+          Id="PuppetBolt.psm1"
+          Source="$(var.AppSourcePath)\share\PowerShell\Modules\PuppetBolt\PuppetBoltFunctions.psm1"
+          KeyPath="yes" />
+      </Component>
     </ComponentGroup>
   </Fragment>
 </Wix>

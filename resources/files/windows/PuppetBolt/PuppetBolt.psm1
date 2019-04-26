@@ -1,3 +1,5 @@
+. $PSScriptRoot\PuppetBoltFunctions.ps1
+
 $fso = New-Object -ComObject Scripting.FileSystemObject
 
 $env:BOLT_BASEDIR = (Get-ItemProperty -Path "HKLM:\Software\Puppet Labs\Bolt").RememberedInstallDir
